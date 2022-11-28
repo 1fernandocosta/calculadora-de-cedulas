@@ -20,12 +20,13 @@ body {
 }
 
 .content {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 322px;
-    height: 500px;
+    height: 550px;
     padding: 7px 5px;
     border-radius: 10px;
     border: 5px solid var(---roxo);
@@ -33,6 +34,10 @@ body {
     -webkit-box-shadow: 0px 0px 20px 10px rgba(109, 109, 109, 0.76);
     -moz-box-shadow: 0px 0px 20px 10px rgba(109, 109, 109, 0.76);
     box-shadow: 0px 0px 20px 10px rgba(109, 109, 109, 0.76);
+}
+
+.content form{
+    width: 100%;
 }
 
 .content-cedulas {
@@ -44,7 +49,7 @@ body {
 
 .content-cedulas p {
     color: var(---branco);
-    margin: 0 7px;
+    margin: 0 3px;
     font-weight: bold;
 }
 
@@ -57,67 +62,54 @@ body {
     font-size: 12px;
 }
 
-.img2reais {
+.content-cedulas .subtotais{
+font-size: 0.8rem;
+color: var(---roxo);
+background-color: var(---branco);
+padding: 3px 2px;
+text-align: right;
+width: 100%;
+}
+
+.subtotal2reais,.subtotal5reais,.subtotal10reais,.subtotal20reais,.subtotal50reais,.subtotal100reais,.subtotal200reais{
+    width: 30%;
+}
+
+.img2reais,.img5reais,.img10reais,.img20reais,.img50reais,.img100reais,.img200reais {
     width: 110px;
     height: 55px;
-    background-image: url("../img/rs2.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
+
+}
+
+.img2reais {
+    background-image: url("../img/rs2.jpg");
 }
 
 .img5reais {
-    width: 110px;
-    height: 55px;
     background-image: url("../img/rs5.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
 }
 
 .img10reais {
-    width: 110px;
-    height: 55px;
     background-image: url("../img/rs10.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
 }
 
 .img20reais {
-    width: 110px;
-    height: 55px;
     background-image: url("../img/rs20.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
 }
 
 .img50reais {
-    width: 110px;
-    height: 55px;
     background-image: url("../img/rs50.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
 }
 
 .img100reais {
-    width: 110px;
-    height: 55px;
     background-image: url("../img/rs100.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
 }
 
 .img200reais {
-    width: 110px;
-    height: 55px;
     background-image: url("../img/rs200.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
 }
 
 .totais {
@@ -128,6 +120,24 @@ body {
     letter-spacing: -0.4px;
     font-size: 16px;
     border-radius: 5px;
-    margin-top: 7px;
+    margin-top: 15px;
     background-color: var(---branco);
+}
+
+#somar{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#limpar{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }

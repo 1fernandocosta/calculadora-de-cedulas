@@ -16,70 +16,81 @@
                 <div class="img2reais">
                 </div>
                 <p>X</p>
-                <input type="number">
+                <input id="dois-reais" type="number">
                 <p>=</p>
-                <div class="subtotal2reais">
+                <div id="subtotal2reais" class="subtotal2reais">
+                    <p id="subTotalDoisReais2" class="subtotais"></p>
                 </div>
             </div>
             <div class="content-cinco-reais content-cedulas">
                 <div class="img5reais">
                 </div>
                 <p>X</p>
-                <input type="number">
+                <input id="cinco-reais" type="number">
                 <p>=</p>
-                <div class="subtotal5reais">
+                <div id="subtotal5reais" class="subtotal5reais">
+                    <p id="subTotalCincoReais2" class="subtotais"></p>
                 </div>
             </div>
             <div class="content-dez-reais content-cedulas">
                 <div class="img10reais">
                 </div>
                 <p>X</p>
-                <input type="number">
+                <input id="dez-reais" type="number">
                 <p>=</p>
-                <div class="subtotal10reais">
+                <div id="subtotal10reais" class="subtotal10reais">
+                    <p id="subTotalDezReais2" class="subtotais"></p>
                 </div>
             </div>
             <div class="content-vinte-reais content-cedulas">
                 <div class="img20reais">
                 </div>
                 <p>X</p>
-                <input type="number">
+                <input id="vinte-reais" type="number">
                 <p>=</p>
-                <div class="subtotal20reais">
+                <div id="subtotal20reais" class="subtotal20reais">
+                    <p id="subTotalVinteReais2" class="subtotais"></p>
                 </div>
             </div>
             <div class="content-cinquenta-reais content-cedulas">
                 <div class="img50reais">
                 </div>
                 <p>X</p>
-                <input type="number">
+                <input id="cinquenta-reais" type="number">
                 <p>=</p>
-                <div class="subtotal50reais">
+                <div id="subtotal50reais" class="subtotal50reais">
+                    <p id="subTotalCinquentaReais2" class="subtotais"></p>
                 </div>
             </div>
             <div class="content-cem-reais content-cedulas">
                 <div class="img100reais">
                 </div>
                 <p>X</p>
-                <input type="number">
+                <input id="cem-reais" type="number">
                 <p>=</p>
-                <div class="subtotal100reais">
+                <div id="subtotal100reais" class="subtotal100reais">
+                    <p id="subTotalCemReais2" class="subtotais"></p>
                 </div>
             </div>
             <div class="content-duzentos-reais content-cedulas">
                 <div class="img200reais">
                 </div>
                 <p>X</p>
-                <input type="number">
+                <input id="duzentos-reais" type="number">
                 <p>=</p>
-                <div class="subtotal200reais">
+                <div id="subtotal200reais" class="subtotal200reais">
+                    <p id="subTotalDuzentosReais2" class="subtotais"></p>
                 </div>
             </div>
+            <div class="totais">
+                <p>TOTAIS</p>
+            </div>
+            <button id="limpar" type="submit">Limpar</button>
         </form>
-        <div class="totais">
-            <p>TOTAIS</p>
-        </div>
+        <button onclick="somar()" id="somar">Somar</button>
     </div>
+
+    <script src="./src/js/js.js"></script>
 </body>
 
 </html>
