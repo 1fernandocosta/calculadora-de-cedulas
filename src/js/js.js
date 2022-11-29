@@ -33,6 +33,6 @@ function somar() {
     const cedulas = Math.abs(doisReais) + Math.abs(cincoReais) + Math.abs(dezReais) + Math.abs(vinteReais) + Math.abs(cinquentaReais) + Math.abs(cemReais) + Math.abs(duzentosReais);
     cedulass.innerHTML = cedulas + ' Cédulas';
 
-    console.log(cedulas)
-    console.log(total)
+    console.log(cedulas);
+    console.log(total);
 }
