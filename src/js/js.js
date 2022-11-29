@@ -30,13 +30,9 @@ function somar() {
     let total = subTotalDoisReais + subTotalCincoReais + subTotalDezReais + subTotalVinteReais + subTotalCinquentaReais + subTotalCemReais + subTotalDuzentosReais;
     somatotal.innerHTML = 'R$ ' + total.toLocaleString('pt-BR') + ",00";
 
-    const cedulas = doisReais + cincoReais + dezReais + vinteReais + cinquentaReais + cemReais + duzentosReais;
-    cedulass.innerHTML = 'Cédulas: ' + Math.abs(cedulas);
-
-
-
-
+    const cedulas = Math.abs(doisReais) + Math.abs(cincoReais) + Math.abs(dezReais) + Math.abs(vinteReais) + Math.abs(cinquentaReais) + Math.abs(cemReais) + Math.abs(duzentosReais);
+    cedulass.innerHTML = cedulas + ' Cédulas';
 
     console.log(cedulas)
-
+    console.log(total)
 }
