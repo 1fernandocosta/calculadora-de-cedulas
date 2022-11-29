@@ -25,15 +25,15 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 322px;
-    height: 550px;
-    padding: 7px 5px;
-    border-radius: 10px;
-    border: 5px solid var(---roxo);
+    width: 20.125rem;
+    height: 34.375rem;
+    padding: 0.4375rem 0.3125rem;
+    border-radius: 0.625rem;
+    border: 0.3125rem solid var(---roxo);
     background-color: var(---roxo);
-    -webkit-box-shadow: 0px 0px 10px 5px rgba(109, 109, 109, 0.56);
-    -moz-box-shadow: 0px 0px 10px 5px rgba(109, 109, 109, 0.56);
-    box-shadow: 0px 0px 10px 5px rgba(109, 109, 109, 0.56);
+    -webkit-box-shadow: 0px 0px 0.625rem 0.3125rem rgba(109, 109, 109, 0.56);
+    -moz-box-shadow: 0px 0px 0.625rem 0.3125rem rgba(109, 109, 109, 0.56);
+    box-shadow: 0px 0px 0.625rem 0.3125rem rgba(109, 109, 109, 0.56);
 }
 
 .content form{
@@ -44,29 +44,29 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 6.5px;
+    margin-bottom: 0.40625rem;
 }
 
 .content-cedulas p {
     color: var(---branco);
-    margin: 0 3px;
+    margin: 0 0.1875rem;
     font-weight: bold;
 }
 
 .content-cedulas input {
-    padding: 0 5px;
-    width: 52px;
-    height: 21px;
+    padding: 0 0.3125rem;
+    width: 3.25rem;
+    height: 1.3125rem;
     border: none;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .content-cedulas .subtotais{
 font-size: 0.8rem;
 color: var(---roxo);
 background-color: var(---branco);
-padding: 3px 2px;
+padding: 0.1875rem 0.125rem;
 text-align: right;
 width: 100%;
 }
@@ -76,8 +76,8 @@ width: 100%;
 }
 
 .img2reais,.img5reais,.img10reais,.img20reais,.img50reais,.img100reais,.img200reais {
-    width: 110px;
-    height: 55px;
+    width: 6.875rem;
+    height: 3.4375rem;
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -119,12 +119,13 @@ width: 100%;
     justify-content: space-between;
     color: var(---roxo);
     width: 100%;
+    height: 2.3rem;
     font-weight: 900;
-    padding: 3px 24px 3px 6px;
-    letter-spacing: -0.4px;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-top: 15px;
+    padding: 0.18rem 1.5rem 0.18rem 0.36rem;
+    letter-spacing: -0.025rem;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    margin-top: 0.9rem;
     background-color: var(---branco);
 }
 
@@ -136,12 +137,12 @@ padding: 0 0 0 0.4rem;
 }
 
 .totais1{
-    width: 33%;
+    width: 20%;
 }
 
 .totais2{
     font-size: 0.8rem;
-    width: 66%;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
 }
@@ -156,7 +157,7 @@ padding: 0 0 0 0.4rem;
     padding: 0.5rem 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    border-radius: 50px;
+    border-radius: 5rem;
     border: 0.2rem solid var(---roxo);
     color: var(---roxo);
     background-color: var(---branco);
