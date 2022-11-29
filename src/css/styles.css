@@ -120,7 +120,7 @@ width: 100%;
     color: var(---roxo);
     width: 100%;
     font-weight: 900;
-    padding: 6px 24px;
+    padding: 3px 24px 3px 6px;
     letter-spacing: -0.4px;
     font-size: 16px;
     border-radius: 5px;
@@ -130,6 +130,24 @@ width: 100%;
 
 .totais .total{
 font-size: 0.8rem;
+margin-left: 0.5rem;
+border-left: 0.2rem solid black;
+padding: 0 0 0 0.4rem;
+}
+
+.totais1{
+    width: 33%;
+}
+
+.totais2{
+    font-size: 0.8rem;
+    width: 66%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.totais2 .cedulas2{
+    color: #000;
 }
 
 #somar{
