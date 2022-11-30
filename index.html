@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="./src/js/js.js" defer></script>
     <title>Calculadora de cédulas</title>
 </head>
 
@@ -87,22 +88,19 @@
                     <p>TOTAIS</p>
                 </div>
                 <div class="totais2">
-                    <div id="cedulas2" class="cedulas2">
-                        <p id="cedulass" class="cedulas"></p>
+                    <div>
+                        <p id="cedulas" class="cedulas"></p>
                     </div>
                     <div id="total" class="total">
                         <p id="somatotal" class="somatotal"></p>
                     </div>
                 </div>
             </div>
-            <button id="limpar" type="reset">Limpar</button>
-            <button onclick="somar()" id="limpar">Limpar</button>
-
         </form>
+        <button onclick="refresh()" id="limpar">Limpar</button>
         <button onclick="somar()" id="somar">Somar</button>
     </div>
 
-    <script src="./src/js/js.js"></script>
 </body>
 
 </html>

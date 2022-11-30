@@ -1,3 +1,8 @@
+const refresh = document.querySelector("#limpar")
+refresh.addEventListener('click', () => {
+   location.reload()
+})
+
 let start = somar();
 
 
@@ -54,8 +59,8 @@ function somar() {
    let total = subTotalDoisReais + subTotalCincoReais + subTotalDezReais + subTotalVinteReais + subTotalCinquentaReais + subTotalCemReais + subTotalDuzentosReais;
    somatotal.innerHTML = 'R$ ' + total.toLocaleString('pt-BR') + ",00";
 
-   let cedulas = Math.abs(doisReais) + Math.abs(cincoReais) + Math.abs(dezReais) + Math.abs(vinteReais) + Math.abs(cinquentaReais) + Math.abs(cemReais) + Math.abs(duzentosReais);
-   cedulass.innerHTML = cedulas + ' Cédulas';
+   let somarCedulas = Math.abs(doisReais) + Math.abs(cincoReais) + Math.abs(dezReais) + Math.abs(vinteReais) + Math.abs(cinquentaReais) + Math.abs(cemReais) + Math.abs(duzentosReais);
+   cedulas.innerHTML = somarCedulas + ' Cédulas';
 
    console.log(cedulas);
    console.log(total);
