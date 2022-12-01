@@ -36,6 +36,29 @@ body {
     box-shadow: 0px 0px 0.625rem 0.3125rem rgba(109, 109, 109, 0.56);
 }
 
+.content .titulo{
+    margin: 0 auto;
+color: var(---branco);
+font-size: 1.093rem;
+font-weight: 900;
+text-align: center;
+width: 90%;
+border-radius: 10px;
+border-bottom: 0.5rem solid var(---branco);
+border-top: 0.5rem solid var(---branco);
+padding: 0.2rem 0;
+margin-top: 0.5rem;
+text-transform: uppercase;
+}
+
+.content .informacao{
+    width: 100%;
+    text-align: center;
+    color: var(---branco);
+    margin: 0.2rem 0.2rem 0.5rem 0.2rem;
+    font-style: italic;
+}
+
 .content form{
     width: 100%;
 }
