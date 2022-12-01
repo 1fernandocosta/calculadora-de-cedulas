@@ -27,7 +27,6 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     width: 20.125rem;
-    height: 35.375rem;
     padding: 0.4375rem 0.3125rem;
     border-radius: 0.625rem;
     border: 0.3125rem solid var(---roxo);
@@ -155,27 +154,34 @@ padding: 0 0 0 0.4rem;
     color: #000;
 }
 
+.botoes{
+    width: 100%;
+    display: flex;
+
+}
 
 #somar,#limpar{
-    position: absolute;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 0 0.5rem 0;
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 5rem;
     border: 0.2rem solid var(---roxo);
     color: var(---roxo);
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
     background-color: var(---branco);
 }
 
 #somar{
-    right: 1rem;
+    display: none;
+    /* right: 1rem;
     bottom: 0.5rem;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; */
 }
 
 #limpar{
-    left: 1rem;
-    bottom: 0.5rem;
+    width: 100%;
     transition: 0.3s ease-in-out;
 }
 
