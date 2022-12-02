@@ -23,6 +23,10 @@
         align-items: flex-end;
     }
 
+    .content-cedulas .input-cedulas{
+        width: 20%;
+    }
+
     .content-cedulas{
         width: 100%;
         justify-content: space-between;

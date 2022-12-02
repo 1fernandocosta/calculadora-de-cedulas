@@ -98,6 +98,10 @@ text-transform: uppercase;
     border-radius: 0.2rem;
 }
 
+.content-cedulas .input-cedulas{
+    width: 20%;
+}
+
 .content-cedulas .subtotais{
 font-size: 0.8rem;
 color: var(---roxo);
