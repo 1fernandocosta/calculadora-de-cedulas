@@ -36,22 +36,22 @@ body {
     box-shadow: 0px 0px 0.625rem 0.3125rem rgba(109, 109, 109, 0.56);
 }
 
-.content .titulo{
+.content .titulo {
     margin: 0 auto;
-color: var(---branco);
-font-size: 1.093rem;
-font-weight: 900;
-text-align: center;
-width: 90%;
-border-radius: 10px;
-border-bottom: 0.5rem solid var(---branco);
-border-top: 0.5rem solid var(---branco);
-padding: 0.2rem 0;
-margin-top: 0.5rem;
-text-transform: uppercase;
+    color: var(---branco);
+    font-size: 1.093rem;
+    font-weight: 900;
+    text-align: center;
+    width: 90%;
+    border-radius: 10px;
+    border-bottom: 0.5rem solid var(---branco);
+    border-top: 0.5rem solid var(---branco);
+    padding: 0.2rem 0;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
 }
 
-.content .informacao{
+.content .informacao {
     width: 100%;
     text-align: center;
     color: var(---branco);
@@ -59,11 +59,11 @@ text-transform: uppercase;
     font-style: italic;
 }
 
-.form{
+.form {
     width: 100%;
 }
 
-.content form{
+.content form {
     width: 100%;
     display: flex;
     overflow: hidden;
@@ -98,26 +98,44 @@ text-transform: uppercase;
     border-radius: 0.2rem;
 }
 
-.content-cedulas .input-cedulas{
+.content-cedulas .input-cedulas {
     width: 20%;
+    height: 2rem;
+
 }
 
-.content-cedulas .subtotais{
-font-size: 0.8rem;
-color: var(---roxo);
-background-color: var(---branco);
-padding: 0.1875rem 0.125rem;
-text-align: right;
-/* width: 100%; */
-border-radius: 0.2rem;
+.content-cedulas .subtotais {
+    font-size: 0.8rem;
+    color: var(---roxo);
+    background-color: var(---branco);
+    padding: 0.1875rem 0.125rem;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3.4375rem;
+    /* width: 100%; */
+    border-radius: 0.2rem;
 }
 
-.subtotal2reais,.subtotal5reais,.subtotal10reais,.subtotal20reais,.subtotal50reais,.subtotal100reais,.subtotal200reais{
+.subtotal2reais,
+.subtotal5reais,
+.subtotal10reais,
+.subtotal20reais,
+.subtotal50reais,
+.subtotal100reais,
+.subtotal200reais {
     width: 30%;
     overflow: hidden;
 }
 
-.img2reais,.img5reais,.img10reais,.img20reais,.img50reais,.img100reais,.img200reais {
+.img2reais,
+.img5reais,
+.img10reais,
+.img20reais,
+.img50reais,
+.img100reais,
+.img200reais {
     width: 6.875rem;
     height: 3.4375rem;
     background-repeat: no-repeat;
@@ -171,35 +189,36 @@ border-radius: 0.2rem;
     background-color: var(---branco);
 }
 
-.totais .total{
-font-size: 0.8rem;
-margin-left: 0.5rem;
-border-left: 0.2rem solid black;
-padding: 0 0 0 0.4rem;
+.totais .total {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    border-left: 0.2rem solid black;
+    padding: 0 0 0 0.4rem;
 }
 
-.totais1{
+.totais1 {
     width: 20%;
 }
 
-.totais2{
+.totais2 {
     font-size: 0.8rem;
     width: 80%;
     display: flex;
     justify-content: flex-end;
 }
 
-.totais2 .cedulas{
+.totais2 .cedulas {
     color: #000;
 }
 
-.botoes{
+.botoes {
     width: 100%;
     display: flex;
 
 }
 
-#somar,#limpar{
+#somar,
+#limpar {
     padding: 0.5rem 0.5rem;
     margin: 1rem 0 0.5rem 0;
     font-weight: bold;
@@ -212,21 +231,22 @@ padding: 0 0 0 0.4rem;
     background-color: var(---branco);
 }
 
-#somar{
+#somar {
     display: none;
     /* right: 1rem;
     bottom: 0.5rem;
     transition: 0.3s ease-in-out; */
 }
 
-#limpar{
+#limpar {
     width: 100%;
     transition: 0.3s ease-in-out;
 }
 
-#somar:hover,#limpar:hover{
-cursor: pointer;
-border: 0.2rem solid var(---branco);
-color: var(---branco);
-background-color: var(---roxo);
+#somar:hover,
+#limpar:hover {
+    cursor: pointer;
+    border: 0.2rem solid var(---branco);
+    color: var(---branco);
+    background-color: var(---roxo);
 }
