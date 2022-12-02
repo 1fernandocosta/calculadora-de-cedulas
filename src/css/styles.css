@@ -104,7 +104,7 @@ color: var(---roxo);
 background-color: var(---branco);
 padding: 0.1875rem 0.125rem;
 text-align: right;
-width: 100%;
+/* width: 100%; */
 border-radius: 0.2rem;
 }
 
