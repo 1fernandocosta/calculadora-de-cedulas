@@ -59,14 +59,25 @@ text-transform: uppercase;
     font-style: italic;
 }
 
+.form{
+    width: 100%;
+}
+
 .content form{
     width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .content-cedulas {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
     margin-bottom: 0.40625rem;
 }
 
@@ -99,6 +110,7 @@ border-radius: 0.2rem;
 
 .subtotal2reais,.subtotal5reais,.subtotal10reais,.subtotal20reais,.subtotal50reais,.subtotal100reais,.subtotal200reais{
     width: 30%;
+    overflow: hidden;
 }
 
 .img2reais,.img5reais,.img10reais,.img20reais,.img50reais,.img100reais,.img200reais {

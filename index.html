@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
     <link rel="shortcut icon" href="src/img/favicon02.png" type="image/x-icon">
     <script src="./src/js/js.js" defer></script>
     <title>Calculadora de cédulas</title>
@@ -15,91 +16,93 @@
     <div class="content">
         <h1 class="titulo">Calculadora de cédulas</h1>
         <p class="informacao">Utilizar números inteiros.</p>
-        <form action="">
-            <div class="content-dois-reais content-cedulas">
-                <div class="img2reais">
-                </div>
-                <p>X</p>
-                <input id="dois-reais" type="number" onkeyup="somar()"onclick="somar()">
-                <p>=</p>
-                <div id="subtotal2reais" class="subtotal2reais">
-                    <p id="subTotalDoisReais2" class="subtotais"></p>
-                </div>
-            </div>
-            <div class="content-cinco-reais content-cedulas">
-                <div class="img5reais">
-                </div>
-                <p>X</p>
-                <input id="cinco-reais" type="number" onkeyup="somar()"onclick="somar()">
-                <p>=</p>
-                <div id="subtotal5reais" class="subtotal5reais">
-                    <p id="subTotalCincoReais2" class="subtotais"></p>
-                </div>
-            </div>
-            <div class="content-dez-reais content-cedulas">
-                <div class="img10reais">
-                </div>
-                <p>X</p>
-                <input id="dez-reais" type="number" onkeyup="somar()"onclick="somar()">
-                <p>=</p>
-                <div id="subtotal10reais" class="subtotal10reais">
-                    <p id="subTotalDezReais2" class="subtotais"></p>
-                </div>
-            </div>
-            <div class="content-vinte-reais content-cedulas">
-                <div class="img20reais">
-                </div>
-                <p>X</p>
-                <input id="vinte-reais" type="number" onkeyup="somar()"onclick="somar()">
-                <p>=</p>
-                <div id="subtotal20reais" class="subtotal20reais">
-                    <p id="subTotalVinteReais2" class="subtotais"></p>
-                </div>
-            </div>
-            <div class="content-cinquenta-reais content-cedulas">
-                <div class="img50reais">
-                </div>
-                <p>X</p>
-                <input id="cinquenta-reais" type="number" onkeyup="somar()"onclick="somar()">
-                <p>=</p>
-                <div id="subtotal50reais" class="subtotal50reais">
-                    <p id="subTotalCinquentaReais2" class="subtotais"></p>
-                </div>
-            </div>
-            <div class="content-cem-reais content-cedulas">
-                <div class="img100reais">
-                </div>
-                <p>X</p>
-                <input id="cem-reais" type="number" onkeyup="somar()"onclick="somar()">
-                <p>=</p>
-                <div id="subtotal100reais" class="subtotal100reais">
-                    <p id="subTotalCemReais2" class="subtotais"></p>
-                </div>
-            </div>
-            <div class="content-duzentos-reais content-cedulas">
-                <div class="img200reais">
-                </div>
-                <p>X</p>
-                <input id="duzentos-reais" type="number" onkeyup="somar()"onclick="somar()">
-                <p>=</p>
-                <div id="subtotal200reais" class="subtotal200reais">
-                    <p id="subTotalDuzentosReais2" class="subtotais"></p>
-                </div>
-            </div>
-            <div class="totais">
-                <div class="totais1">
-                    <p>TOTAIS</p>
-                </div>
-                <div class="totais2">
-                    <div>
-                        <p id="cedulas" class="cedulas"></p>
+        <div class="form">
+            <form action="">
+                <div class="content-dois-reais content-cedulas">
+                    <div class="img2reais">
                     </div>
-                    <div id="total" class="total">
-                        <p id="somatotal" class="somatotal"></p>
+                    <p>X</p>
+                    <input id="dois-reais" type="number" onkeyup="somar()" onclick="somar()">
+                    <p>=</p>
+                    <div id="subtotal2reais" class="subtotal2reais">
+                        <p id="subTotalDoisReais2" class="subtotais"></p>
                     </div>
                 </div>
-            </div>
-        </form>
+                <div class="content-cinco-reais content-cedulas">
+                    <div class="img5reais">
+                    </div>
+                    <p>X</p>
+                    <input id="cinco-reais" type="number" onkeyup="somar()" onclick="somar()">
+                    <p>=</p>
+                    <div id="subtotal5reais" class="subtotal5reais">
+                        <p id="subTotalCincoReais2" class="subtotais"></p>
+                    </div>
+                </div>
+                <div class="content-dez-reais content-cedulas">
+                    <div class="img10reais">
+                    </div>
+                    <p>X</p>
+                    <input id="dez-reais" type="number" onkeyup="somar()" onclick="somar()">
+                    <p>=</p>
+                    <div id="subtotal10reais" class="subtotal10reais">
+                        <p id="subTotalDezReais2" class="subtotais"></p>
+                    </div>
+                </div>
+                <div class="content-vinte-reais content-cedulas">
+                    <div class="img20reais">
+                    </div>
+                    <p>X</p>
+                    <input id="vinte-reais" type="number" onkeyup="somar()" onclick="somar()">
+                    <p>=</p>
+                    <div id="subtotal20reais" class="subtotal20reais">
+                        <p id="subTotalVinteReais2" class="subtotais"></p>
+                    </div>
+                </div>
+                <div class="content-cinquenta-reais content-cedulas">
+                    <div class="img50reais">
+                    </div>
+                    <p>X</p>
+                    <input id="cinquenta-reais" type="number" onkeyup="somar()" onclick="somar()">
+                    <p>=</p>
+                    <div id="subtotal50reais" class="subtotal50reais">
+                        <p id="subTotalCinquentaReais2" class="subtotais"></p>
+                    </div>
+                </div>
+                <div class="content-cem-reais content-cedulas">
+                    <div class="img100reais">
+                    </div>
+                    <p>X</p>
+                    <input id="cem-reais" type="number" onkeyup="somar()" onclick="somar()">
+                    <p>=</p>
+                    <div id="subtotal100reais" class="subtotal100reais">
+                        <p id="subTotalCemReais2" class="subtotais"></p>
+                    </div>
+                </div>
+                <div class="content-duzentos-reais content-cedulas">
+                    <div class="img200reais">
+                    </div>
+                    <p>X</p>
+                    <input id="duzentos-reais" type="number" onkeyup="somar()" onclick="somar()">
+                    <p>=</p>
+                    <div id="subtotal200reais" class="subtotal200reais">
+                        <p id="subTotalDuzentosReais2" class="subtotais"></p>
+                    </div>
+                </div>
+                <div class="totais">
+                    <div class="totais1">
+                        <p>TOTAIS</p>
+                    </div>
+                    <div class="totais2">
+                        <div>
+                            <p id="cedulas" class="cedulas"></p>
+                        </div>
+                        <div id="total" class="total">
+                            <p id="somatotal" class="somatotal"></p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
         <div class="botoes">
             <button onclick="refresh()" id="limpar">Limpar</button>
             <button onclick="somar()" id="somar">Somar</button>

@@ -1,0 +1,34 @@
+@media screen and (max-width:750px) {
+    .content{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .form{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .content form{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .content-cedulas{
+        width: 100%;
+        justify-content: space-between;
+    }
+ 
+    .subtotal2reais,.subtotal5reais,.subtotal10reais,.subtotal20reais,.subtotal50reais,.subtotal100reais,.subtotal200reais{
+        width: 50%;
+    }
+    
+}
