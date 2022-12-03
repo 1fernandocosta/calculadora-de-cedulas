@@ -5,7 +5,6 @@ refresh.addEventListener('click', () => {
 
 let start = somar();
 
-
 function somar() {
    let doisReais = parseInt(document.getElementById("dois-reais").value);
    if (isNaN(doisReais)) {
