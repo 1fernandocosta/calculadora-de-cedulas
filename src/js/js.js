@@ -5,6 +5,10 @@ refresh.addEventListener('click', () => {
 
 let start = somar();
 
+function toLimit(string = ""){
+   string.value = string.value.substring(0,6);
+}
+
 function somar() {
    let doisReais = parseInt(document.getElementById("dois-reais").value);
    if (isNaN(doisReais)) {
