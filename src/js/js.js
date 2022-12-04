@@ -63,7 +63,7 @@ function somar() {
    somatotal.innerHTML = 'R$ ' + total.toLocaleString('pt-BR') + ",00";
 
    let somarCedulas = Math.abs(doisReais) + Math.abs(cincoReais) + Math.abs(dezReais) + Math.abs(vinteReais) + Math.abs(cinquentaReais) + Math.abs(cemReais) + Math.abs(duzentosReais);
-   cedulas.innerHTML = somarCedulas + ' Cédulas';
+   cedulas.innerHTML = somarCedulas.toLocaleString('pt-BR') + ' Cédulas';
 
    console.log(cedulas);
    console.log(total);
