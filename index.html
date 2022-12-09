@@ -15,14 +15,14 @@
 <body>
     <div class="content">
         <h1 class="titulo">Calculadora de cédulas</h1>
-        <br>
+        <p class="informacao">Inserir apenas números e inteiros.</p>
         <div class="form">
             <form action="">
                 <div class="content-dois-reais content-cedulas">
                     <div class="img2reais">
                     </div>
                     <p>X</p>
-                    <input class="input-cedulas" id="dois-reais" type="text" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()" autofocus>
+                    <input class="input-cedulas" id="dois-reais" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()" autofocus>
                     <p>=</p>
                     <div id="subtotal2reais" class="subtotal2reais">
                         <p id="subTotalDoisReais2" class="subtotais"></p>
