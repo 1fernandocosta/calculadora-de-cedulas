@@ -22,7 +22,7 @@
                     <div class="img2reais">
                     </div>
                     <p>X</p>
-                    <input class="input-cedulas" id="dois-reais" type="number" onkeypress="return somenteNumeros(event)" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()" autofocus>
+                    <input class="input-cedulas" id="dois-reais" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()" autofocus>
                     <p>=</p>
                     <div id="subtotal2reais" class="subtotal2reais">
                         <p id="subTotalDoisReais2" class="subtotais"></p>
@@ -32,7 +32,7 @@
                     <div class="img5reais">
                     </div>
                     <p>X</p>
-                    <input class="input-cedulas" id="cinco-reais" type="number" onkeypress="return somenteNumeros(event)" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
+                    <input class="input-cedulas" id="cinco-reais" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
                     <p>=</p>
                     <div id="subtotal5reais" class="subtotal5reais">
                         <p id="subTotalCincoReais2" class="subtotais"></p>
@@ -42,7 +42,7 @@
                     <div class="img10reais">
                     </div>
                     <p>X</p>
-                    <input class="input-cedulas" id="dez-reais" type="number"  onkeypress="return somenteNumeros(event)" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
+                    <input class="input-cedulas" id="dez-reais" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
                     <p>=</p>
                     <div id="subtotal10reais" class="subtotal10reais">
                         <p id="subTotalDezReais2" class="subtotais"></p>
@@ -52,7 +52,7 @@
                     <div class="img20reais">
                     </div>
                     <p>X</p>
-                    <input class="input-cedulas" id="vinte-reais" type="number"  onkeypress="return somenteNumeros(event)" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
+                    <input class="input-cedulas" id="vinte-reais" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
                     <p>=</p>
                     <div id="subtotal20reais" class="subtotal20reais">
                         <p id="subTotalVinteReais2" class="subtotais"></p>
@@ -62,7 +62,7 @@
                     <div class="img50reais">
                     </div>
                     <p>X</p>
-                    <input class="input-cedulas" id="cinquenta-reais" type="number"  onkeypress="return somenteNumeros(event)" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
+                    <input class="input-cedulas" id="cinquenta-reais" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
                     <p>=</p>
                     <div id="subtotal50reais" class="subtotal50reais">
                         <p id="subTotalCinquentaReais2" class="subtotais"></p>
@@ -72,7 +72,7 @@
                     <div class="img100reais">
                     </div>
                     <p>X</p>
-                    <input class="input-cedulas" id="cem-reais" type="number"  onkeypress="return somenteNumeros(event)" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
+                    <input class="input-cedulas" id="cem-reais" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
                     <p>=</p>
                     <div id="subtotal100reais" class="subtotal100reais">
                         <p id="subTotalCemReais2" class="subtotais"></p>
@@ -82,7 +82,7 @@
                     <div class="img200reais">
                     </div>
                     <p>X</p>
-                    <input class="input-cedulas" id="duzentos-reais" type="number"  onkeypress="return somenteNumeros(event)" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
+                    <input class="input-cedulas" id="duzentos-reais" type="number" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="toLimit(this);somar()" onclick="toLimit(this);somar()">
                     <p>=</p>
                     <div id="subtotal200reais" class="subtotal200reais">
                         <p id="subTotalDuzentosReais2" class="subtotais"></p>
