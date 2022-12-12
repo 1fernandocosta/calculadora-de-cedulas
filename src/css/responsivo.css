@@ -8,6 +8,14 @@
         border-radius: 0;
     }
 
+    .content .informacao {
+    display: block;
+    }
+
+    .content .espaco_depois_informacao{
+        display: none;
+    }
+
     .form{
         width: 100%;
         display: flex;
